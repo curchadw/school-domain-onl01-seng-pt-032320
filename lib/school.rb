@@ -22,7 +22,7 @@ def grade(grade)
 end
 
 def sort(students) 
-  students.sort_by |k,v|
+  students.sort_by do |k,v|
     k[:grade]
   end
 end
