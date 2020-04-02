@@ -21,8 +21,8 @@ def grade(grade)
   roster[grade]
 end
 
-def sort(roster) 
-  roster.sort_by do |k,v|
+def sort 
+  @roster.sort_by do |k,v|
     k[grade]
   end
 end
