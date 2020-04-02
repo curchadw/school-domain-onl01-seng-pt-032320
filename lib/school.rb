@@ -11,7 +11,9 @@ def roster
 end
 
 def add_student(name,grade)
-  if !(@roster[])
+  if !(@roster.include?(grade))
+    roster[grade].push(name)
+  end
 end
 
 
