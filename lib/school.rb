@@ -1,2 +1,2 @@
 # code here!
-school = School.new()
+school = School.new("Bayside High School")
