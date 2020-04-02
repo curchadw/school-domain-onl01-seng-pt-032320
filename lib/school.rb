@@ -22,7 +22,7 @@ def grade(grade)
 end
 
 def sort(students) 
-  students.sort
+  students.values.sort
 end
 
 
