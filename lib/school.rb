@@ -12,8 +12,9 @@ end
 
 def add_student(name,grade)
   if !(@roster.include?(grade))
-    roster[grade].push(name)
+    roster[grade]= Array.new
   end
+  roster[grade] = name
 end
 
 
