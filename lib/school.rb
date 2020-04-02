@@ -1,5 +1,9 @@
 # code here!
-school = School.new(@school)
+class School
+
+def initialize(school)
+@school = 
+end
 
 
 
