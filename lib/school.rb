@@ -17,5 +17,9 @@ def add_student(name,grade)
   roster[grade].push(name)
 end
 
+def grade(grade)
+  roster[grade]
+end
+
 
 end
