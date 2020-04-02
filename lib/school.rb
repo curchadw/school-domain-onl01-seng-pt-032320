@@ -23,7 +23,7 @@ end
 
 def sort(students) 
   students.sort_by |k,v|
-    
+    k[:]
   end
 end
 
