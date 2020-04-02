@@ -7,7 +7,7 @@ def initialize(school)
 end
 
 def add_student(name,grade)
-  
+  roster.merge
 end
 
 
