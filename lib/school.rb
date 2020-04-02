@@ -6,8 +6,12 @@ def initialize(school)
   @roster = {}
 end
 
+def roster
+  @roster
+end
+
 def add_student(name,grade)
-  roster.merge!(:name => name, :grade => grade)
+  roster[rade]
 end
 
 
